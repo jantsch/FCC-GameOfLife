@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 110px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.btn{
+	margin-right: 10px;
+}
+.jumbotron {
+    padding-top: 21px;
+    margin-bottom: 0px;
+}
+.game-container-1{
+  background: #000;   
+    height: 350px;
+    width: 605px;
+    margin: 0px auto;
+    border: 9px solid #333;
+    border-radius: 9px;
+    box-shadow: 0px 16px 30px 0px #383636
+}
+.game-container-2{
+	background: #000;   
+    height: 569px;
+    width: 825px;
+    margin: 0px auto;
+    border: 9px solid #333;
+    border-radius: 9px;
+    box-shadow: 0px 16px 30px 0px #383636
+}
+.game-container-3{
+  background: #000;   
+    height: 578px;
+    width: 747px;
+    margin: 0px auto;
+    border: 9px solid #333;
+    border-radius: 9px;
+    box-shadow: 0px 16px 30px 0px #383636
+}
+
+
+.upper-board{
+	background: #333;    
+    height: 44px;    
+    padding-top: 7px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px 16px 30px 0px #200; 
+    color: white
+}
+.size-board{
+	background: #333;
+	color: white; 
+    margin: 0px auto;
+    padding-bottom: 8px;
+
+  
+}
+
+.speed-board{
+	background: #333;
+	color: white; 
+    margin: 0px auto;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 16px 30px 0px #383636;
+      padding-bottom: 8px;
+
+}
+.btn-speed{
+	margin-left: 60px;
+}
+.btn-size{
+	margin-left: 30px;
+}
+.cell{
+	font-size: 9px;
+    width: 11px;
+    height: 11px;
+    border-top: 1px solid #333;
+    border-left: 1px solid #222;
+    margin: 0px;
+    float: left;
+}
+
+.cell-small{
+  font-size: 9px;
+    width: 7px;
+    height: 7px;
+    border-top: 1px solid #333;
+    border-left: 1px solid #222;
+    margin: 0px;
+    float: left;
+}
+.alive {
+    background: white;
+}
+
+.old {
+    background: #b5aeae;
+}
